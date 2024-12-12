@@ -11,7 +11,7 @@ import java.util.Set;
 @Schema(
         description = "PostDto Model Information"
 )
-public class PostDto {
+public class PostDtoV2 {
     private long id;
 
     @Schema(

@@ -19,7 +19,7 @@ import org.springframework.context.annotation.Bean;
 				contact = @Contact(
 						name = "Duy",
 						email = "kduy2019@gmail.com",
-						url = "http://www.javaguides.net"
+						url = "https://github.com/themoneymonkey277"
 				),
 				license = @License(
 						name = "Apache 2.0",
@@ -27,7 +27,8 @@ import org.springframework.context.annotation.Bean;
 				)
 		),
 		externalDocs = @ExternalDocumentation(
-				description = "Spring Boot Blog App Documentation"
+				description = "Spring Boot Blog App Documentation",
+				url = "https://github.com/themoneymonkey277/Spring-Boot-Blog-App.git"
 		)
 )
 public class SpringbootBlogRestApiApplication {
